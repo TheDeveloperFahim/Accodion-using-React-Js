@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Roboto+Slab:wght@300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#fcf5f5, #eff4fd);
+}
+
+.main-div {
+  width: 30vw;
+  padding: 50px;
+  background: #fff;
+  box-shadow: rgba(17, 17, 26, 0.5) 0 1px 0, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border-radius: 10px;
+}
+
+.heading {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  text-transform: capitalize;
+  font-size: 25px;
+  padding-bottom: 20px;
+  width: 120%;
+  margin-left: -2rem;
+}
+
+.main-heading {
+  display: flex;
+  padding:  10px;
+  min-height: 3rem;
+  align-items: center;
+  background: #eff2fe;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 3px;
+}
+
+.main-heading h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 1.5rem;
+  color: #222;
+}
+
+p.answer {
+  font-size: 15px;
+  background: #faf2f0;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+p.show {
+  color: #222;
+  font-size: 45px;
+  height: 2.2rem;
+  position: absolute;
+  top: 0;
+  left: 8px;
+  cursor: pointer;
+}
